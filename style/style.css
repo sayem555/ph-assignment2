@@ -190,7 +190,7 @@ nav{
     color: #18191F;
 }
 #see-more{
-    width: 1200px;
+    width: 1050px;
     display: flex;
     justify-content: right;
 }
@@ -198,6 +198,121 @@ nav{
     color: #E02C6D;
     text-decoration: none;
 }
+/* contact theory */
+#contact-us {
+    width: 1050px;
+    margin-left: 20px;
+    background-color:white;
+    box-shadow: 1px 0px 15px 10px #00000026;
+  }
+  .contact-us-wrapper {
+    margin: 70px 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .contact-us {
+    display: flex;
+    align-items: center;
+  }
+  .details,
+  .get-in-touch {
+    flex: 50%;
+  }
+  .details {
+    padding: 20px;
+    margin-bottom: 75px;
+  }
+  .details .title {
+    font-size: 35px;
+    color: #3A3A3A;
+  }
+  
+  .details .location,
+  .details .mail,
+  .details .number {
+    font-size: 18px;
+    color: #aaaaaa;
+    display: flex;
+    margin: 15px 0;
+    align-items: center;
+  }
+  .details div .icon-div {
+    min-width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .social-icon .social-links {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  .social-links .social-link {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: #e7e7e8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 7px;
+    transition: all 0.2s linear;
+  }
+  .social-link:hover {
+    transform: scale(1.2);
+    background-color: #E02C6D;
+    color: #fff;
+  }
+  .social-link .social-link i {
+    font-size: 18px;
+    color: #969bab;
+  }
+  .copyright {
+    color: #aaaaaa;
+  }
+  .form-wrapper {
+    display: flex;
+  }
+  .form-wrapper input {
+    flex: 50%;
+    margin: 0 20px;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+  }
+  .textarea-wrapper {
+    width: 100%;
+    display: flex;
+  }
+  
+  form textarea {
+    margin: 20px;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  .submit-btn {
+    margin: 0 20px;
+    padding: 10px 25px;
+    border-radius: 25px;
+    font-size: 18px;
+    background: #E02C6D;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  .submit-btn:hover {
+    background-color: aqua;
+    color: #2d25a0;
+    transition: 1s ease-in-out;
+  }
+
+  /*---------------------
+   contact us end 
+  ----------------------- */
 
 
 /* footer-start */
