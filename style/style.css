@@ -355,3 +355,132 @@ footer{
 .socialmedia-icon a{
     color: white;
 }
+
+ }
+}
+@media only screen and (max-width: 688px) {
+    
+   
+    .nav-area{
+        display: flex;
+        justify-content: right;
+        align-items: right;
+       
+    }
+    .brand-section h1{
+        margin-bottom: 0;
+    }
+    .icon-for-mob{
+        display: flex;
+        font-size: 30px;
+        margin-left: 15%;
+        margin-top: 5px;
+    }
+    .top-section{
+        margin-top: 22px;
+    }
+    .top-container{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        margin-top: 0;
+        justify-items: center;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0;
+    }
+    .nav-elements{
+        margin-right: 0;
+    }
+    .nav-elements h1{
+        font-size: 28px;
+        line-height: 40px;
+        text-align: center;
+       
+    }
+    .banner-text p{
+        font-size: 14px;
+        text-align: center;
+       
+    }
+    .top-img img{
+        padding: 0;
+        
+        width: 250px;
+        height: 250px;
+    }
+   
+    .nav-link{
+        display: none;
+    }
+    .buy-button{
+        display: absolute;
+        margin: 0;
+        margin-right:0 ;
+        margin-top: 0;
+        margin-left: 30%;
+        align-items: center;
+        justify-content: center;
+    }
+    /* --------brands area--------- */
+        .brands{
+            width: 70%;
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            column-gap: 10px;
+            border: none;
+            justify-content: center;
+            
+        }
+       
+        
+        .brand{
+            margin-right: 5px;
+            padding-top: 5px;
+            padding-bottom:0px ;
+        }
+        /* ---------Products area------------- */
+        .products-area{
+            margin-top: 20px;
+        }
+        .products{
+    
+            margin-top: 20px;
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            column-gap: 30px;
+            row-gap: 20px;
+        
+        }
+
+        #see-more{
+            width: 80%;
+            display: flex;
+            justify-content: center;
+        }
+        #see-more h3,a{
+            color: #E02C6D;
+            text-decoration: none;
+        }
+        .product-review{
+            display: none;
+        }
+
+        .contact-us{
+            display: none;
+        }
+        footer{
+            width: 100%;
+            position: relative;
+            margin-top: 2900px;
+    
+        }
+        .footer-intro{
+            text-align: left;
+        }
+        .footer-part{
+            text-align: left;
+        }
+           }
+
+
